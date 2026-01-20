@@ -1,11 +1,23 @@
+<?php
+$conn = mysqli_connect("localhost", "root", "", "aspirasisiswa");
+
+if (!$conn) {
+    die("Koneksi gagal: " . mysqli_connect_error());
+}
+
+// Query aspirasi
+$query = "SELECT * FROM aspirasi ORDER BY tanggal DESC";
+$result = mysqli_query($conn, $query);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aspirasi</title>
+    <title>Data Aspirasi</title>
 
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="aspirasi.css">
+    <link rel="stylesheet" href="css/aspirasi.css">
 </head>
 <body>
 
@@ -13,7 +25,7 @@
 
     <h3 class="mb-3">Data Aspirasi Siswa</h3>
 
-    <table class="table table-bordered table-striped tabel-aspirasi">
+    <table class="table table-bordered table-striped tabel-aspirasi text-center align-middle">
         <thead>
             <tr>
                 <th>No</th>
@@ -28,12 +40,9 @@
         <tbody>
 
         <?php
-        include "server.php";
-        $no = 1;
-
-        $aspirasi = mysqli_query($conn, "SELECT * FROM aspirasi ORDER BY tanggal DESC");
-
-        while ($row = mysqli_fetch_assoc($aspirasi)) {
+        if (mysqli_num_rows($result) > 0) {
+            $no = 1;
+            while ($row = mysqli_fetch_assoc($result)) {
         ?>
             <tr>
                 <td><?= $no++ ?></td>
@@ -50,11 +59,17 @@
                     <?php } ?>
                 </td>
             </tr>
-        <?php } ?>
+        <?php
+            }
+        } else {
+            echo "<tr><td colspan='7'>Belum ada data aspirasi</td></tr>";
+        }
+        ?>
 
         </tbody>
     </table>
 
 </div>
+
 </body>
 </html>

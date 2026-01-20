@@ -9,7 +9,7 @@
         Aspirasi Siswa
     </title>
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="aspirasisiswa.css">
+    <link rel="stylesheet" href="css/aspirasisiswa.css">
 
 </head>
 

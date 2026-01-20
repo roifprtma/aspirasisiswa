@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Data Siswa</title>
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="datasiswa.css">
+<link rel="stylesheet" href="css/datasiswa.css">
    
 </head>
 

@@ -9,23 +9,46 @@
         Aspirasi Siswa
     </title>
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="siswa.css">
+    <link rel="stylesheet" href="css/siswa.css">
 
 </head>
 
 <body>
-    <!-- Navigasi -->
-    <div class="navbar ">
-        <div class="logolaundryku ">
-            <image src="image/aspirasisiswa.png " alt="Laundry Items ">
-        </div>
-        <div class="menu ">
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
 
-           <B><a href="aspirasi.php">ASPIRASI</a>
-            <a href="login/logout.php">Logout</a></B>
+    <!-- LOGO -->
+    <a class="navbar-brand d-flex align-items-center" href="aspirasisiswa.php">
+      <img src="image/aspirasisiswa.png" alt="Logo Aspirasi"
+           width="200" height="50" class="me-2">
+    </a>
 
-        </div>
+    <!-- TOGGLE -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- MENU -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- ms-auto = menu ke kanan -->
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="aspirasisiswa.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
     </div>
+
+  </div>
+</nav>
+
+
 
     <!-- Hero Section -->
    <div class="hero">
@@ -43,7 +66,7 @@
   </div>
 </div>
     </div>
-   
+   <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

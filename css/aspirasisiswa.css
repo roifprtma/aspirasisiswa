@@ -34,7 +34,7 @@
   .hero {
     height: 650px;
   position: relative;
-  background-image: url('image/pembelajaran.jpg');
+  background-image: url('../image/bukekeu.jpg');
   background-size: cover;
   background-position: center;
   color: white;
