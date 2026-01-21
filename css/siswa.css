@@ -161,6 +161,7 @@
   }
   footer {
     font-size: 14px;
+    color: white;
 }
 
 footer a:hover {
@@ -168,3 +169,8 @@ footer a:hover {
 }
 
 
+.bottom{
+  background-color: #033eff;
+  padding-bottom: 5px;
+  padding-top: 25px;
+}

@@ -26,6 +26,7 @@ $result = mysqli_query($conn, $query);
     <h3 class="mb-3">Data Aspirasi Siswa</h3>
 
     <table class="table table-bordered table-striped tabel-aspirasi text-center align-middle">
+
         <thead>
             <tr>
                 <th>No</th>

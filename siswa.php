@@ -157,7 +157,7 @@
 
       <div class="col-md-4 mb-4">
         <div class="p-4 shadow-sm bg-white rounded">
-          <h5 class="fw-bold">📍 Alamat</h5>
+          <h5 class="fw-bold">📍 Alamat :</h5>
           <p>Jl. Pendidikan No. 1<br>Sekolah Indonesia</p>
         </div>
       </div>
@@ -183,9 +183,9 @@
 </section>
 
       <!-- ===== FOOTER ===== -->
-      <footer class="bg-dark text-light pt-4 pb-3">
+      <footer class=" bottom">
         <div class="container text-center" id="kontak">
-          <h5 class="mb-2">Aspirasi Siswa</h5>
+          <h5 class="mb-2">Aspirasi Siswa </h5>
           <p class="mb-1">
             Wadah aspirasi pelajar untuk menyampaikan pendapat, kritik, dan saran secara aman.
           </p>
