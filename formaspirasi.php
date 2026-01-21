@@ -23,8 +23,8 @@
         <option value="1">Perpustakaan</option>
         <option value="2">toilet</option>
         <option value="3">lapangan</option>
-        <option value="2">laboratorium</option>
-        <option value="3">elektronik</option>
+        <option value="4">laboratorium</option>
+        <option value="5">kelas</option>
     </select>
 
     <label>Nama Kategori</label>

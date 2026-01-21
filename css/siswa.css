@@ -60,36 +60,7 @@
   }
 
 
-  /* .hero-text {
-      max-width: 50%;
-  }
-  
-  .hero-text h1 {
-      font-size: 36px;
-      font-weight: bold;
-      margin-bottom: 20px;
-      text-align: center;
-  }
-  .hero-text h3 {
-      font-size: 20px;
-      margin-bottom: 30px;
-      text-align: center;
-  }
-  .hero-text button {
-      background: transparent;
-      border: 1px solid white;
-      padding: 10px 20px;
-      color: white;
-      cursor: pointer;
-      border-radius: 5px;
-      font-size: 16px;
-      transition: 0.3s;
-  }
-  
-  .hero-text button:hover {
-      background: white;
-      color: #1b61b1;
-  } */
+ 
   .hero-text {
     max-width: 700px;
     text-align: center;
@@ -176,3 +147,24 @@
     margin: 10px 10px;
 
   }
+  .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .text-kategori {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+  }
+  footer {
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: #0d6efd;
+}
+
+

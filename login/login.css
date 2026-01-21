@@ -6,7 +6,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-            background: linear-gradient(to right, #007BFF, #FFA500);
+            background: #1863a0;
 
             }
             
@@ -53,7 +53,7 @@
             .login-box button {
                 width: 100px;
                 padding: 12px;
-                background: linear-gradient(to right, #007BFF, #FFA500);
+                background: #2a5298;
 
                 color: #fff;
                 border: none;
@@ -65,7 +65,7 @@
             
             .login-box button:hover {
                 transform: scale(1.1);
-                background:linear-gradient(to right, #007BFF, #FFA500);
+                background: #1863a0;
 
             }
             br{
