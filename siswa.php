@@ -32,6 +32,9 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!-- ms-auto = menu ke kanan -->
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+           <li class="nav-item">
+            <a class="nav-link" href="#tentang"><B>TENTANG</B></a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#kategori"><B>KATEGORI</B></a>
           </li>
@@ -70,6 +73,17 @@
   </div>
   </div>
   <!-- akhir hero section -->
+   <!-- TENTANG KAMI -->
+    <p class="text-kategori">TENTANG KAMI</p>
+    <div class="container mt-5" id="tentang">
+      <p class="text-center mb-3">
+      Aspirasi Siswa adalah platform daring yang didedikasikan untuk memberikan ruang aman bagi pelajar
+      dalam menyampaikan pendapat, kritik, dan saran terkait lingkungan sekolah dan pendidikan secara umum.
+      Kami percaya bahwa setiap suara pelajar penting dan berhak didengar. Melalui platform ini, kami
+      berkomitmen untuk memfasilitasi komunikasi yang konstruktif antara pelajar, guru, dan pihak sekolah guna
+      menciptakan lingkungan belajar yang lebih baik dan inklusif.
+    </p>
+    </div>
   <!-- awal card  -->
   <p class="text-kategori">KATEGORI</p>
   <div class="container mt-4" id="kategori">
@@ -165,16 +179,15 @@
       <div class="col-md-4 mb-4">
         <div class="p-4 shadow-sm bg-white rounded">
           <h5 class="fw-bold">📞 Telepon</h5>
-          <p>0812-3456-7890</p>
-          <p>Senin – Jumat</p>
+          <p>0812-3456-7890
+          <br>Senin – Jumat</p>
         </div>
       </div>
 
       <div class="col-md-4 mb-4">
         <div class="p-4 shadow-sm bg-white rounded">
           <h5 class="fw-bold">✉️ Email</h5>
-          <p>aspirasi@siswa.sch.id</p>
-          <p>Respon cepat & aman</p>
+          <p>aspirasi@siswa.sch.id<br>Respon cepat & aman</p>
         </div>
       </div>
 

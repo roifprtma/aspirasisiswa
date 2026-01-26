@@ -17,7 +17,7 @@ $result = mysqli_query($conn, $query);
     <title>Data Aspirasi</title>
 
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/aspirasi.css">
+    <link rel="stylesheet" href="data.css">
 </head>
 <body>
 
@@ -36,6 +36,7 @@ $result = mysqli_query($conn, $query);
                 <th>Isi</th>
                 <th>Tanggal</th>
                 <th>Status</th>
+                <th>Aksi</th>
             </tr>
         </thead>
         <tbody>
@@ -53,6 +54,19 @@ $result = mysqli_query($conn, $query);
                 <td><?= substr($row['isi'], 0, 40) ?></td>
                 <td><?= $row['tanggal'] ?></td>
                 <td><?= $row['status'] ?></td>
+          <td>
+    <a href="update.php?id=<?= $row['id']; ?>" 
+       class="btn btn-sm btn-edit">
+        Edit
+    </a>
+
+    <a href="delete.php?id=<?= $row['id']; ?>" 
+       class="btn btn-sm btn-delete"
+       onclick="return confirm('Yakin ingin menghapus data ini?')">
+        Hapus
+    </a>
+</td>
+
             </tr>
         <?php
             }
