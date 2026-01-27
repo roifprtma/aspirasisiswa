@@ -1,0 +1,110 @@
+/* ===== RESET DASAR ===== */
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===== CONTAINER ===== */
+.form-container {
+    background: #ffffff;
+    padding: 30px 35px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+/* Animasi */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===== JUDUL ===== */
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* ===== FORM ===== */
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #444;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.form-container input:focus,
+.form-container textarea:focus {
+    outline: none;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 2px rgba(13,110,253,0.2);
+}
+
+/* ===== TOMBOL ===== */
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background: #0d6efd;
+    border: none;
+    color: rgb(84, 101, 177);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.form-container button:hover {
+    background:  #4e6ea0;
+}
+
+/* Tombol kembali */
+.btn-kembali {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+
+.btn-kembali:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 480px) {
+    .form-container {
+        padding: 25px;
+    }
+}

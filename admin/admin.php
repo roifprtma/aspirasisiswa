@@ -52,9 +52,9 @@ $aspirasi = mysqli_query(
 
   <div class="sidebar" id="sidebar">
     <a href="../aspirasisiswa.php">Beranda</a>
-    <a href="datasiswa.php">Data Siswa</a>
+    <a href="data_siswa.php">Data Siswa</a>
     <a href="data_aspirasi.php">Data Aspirasi</a>
-    <a href="logout.php">Logout</a>
+    <a href="../login/logout.php">Logout</a>
   </div>
 
   <div class="content" id="content">
@@ -63,7 +63,7 @@ $aspirasi = mysqli_query(
       <!-- Statistik -->
       <div class="row text-white mb-4">
         <div class="col-md-4">
-          <div class="card bg-primary shadow rounded-3">
+          <div class="card bg-primary text-white shadow rounded-3">
             <div class="card-body text-center">
               <h5><b>Total Aspirasi</b></h5>
               <h3><?= $jml_aspirasi ?></h3>
@@ -72,7 +72,7 @@ $aspirasi = mysqli_query(
         </div>
 
         <div class="col-md-4">
-          <div class="card bg-success shadow rounded-3">
+          <div class="card bg-success text-white shadow rounded-3">
             <div class="card-body text-center">
               <h5><b>Siswa Aktif</b></h5>
               <h3><?= $jml_siswa ?></h3>
@@ -81,7 +81,7 @@ $aspirasi = mysqli_query(
         </div>
 
         <div class="col-md-4">
-          <div class="card bg-info shadow rounded-3">
+          <div class="card bg-primary text-white shadow rounded-3">
             <div class="card-body text-center">
               <h5><b>Kategori</b></h5>
               <h3><?= $jml_kategori ?></h3>
@@ -109,13 +109,18 @@ $aspirasi = mysqli_query(
                 <th>Kategori</th>
                 <th>Tanggal</th>
                 <th>Status</th>
+                <th>Feedback</th>
 
               </tr>
             </thead>
             <tbody>
-              <?php while ($row = mysqli_fetch_assoc($aspirasi)) { ?>
+               
+              <?php 
+                 $no = 1;
+              while ($row = mysqli_fetch_assoc($aspirasi)) 
+                { ?>
                 <tr>
-                  <td><?= $row['id'] ?></td>
+                  <td><?= $no++ ?></td>
                   <td><?= $row['id_siswa'] ?></td>
                   <td><?= $row['judul'] ?></td>
                   <td><?= $row['isi'] ?></td>
@@ -129,6 +134,7 @@ $aspirasi = mysqli_query(
                       <span class="badge bg-secondary"><?= $row['status'] ?></span>
                     <?php } ?>
                   </td>
+                  <td><?= $row['feedback'] ?></td>
                 </tr>
               <?php } ?>
             </tbody>

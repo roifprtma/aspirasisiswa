@@ -1,8 +1,8 @@
 /* ===== GLOBAL ===== */
 body {
-    background-color: #f4f6f9;
+    background-color: #a1badf;
     font-family: "Segoe UI", Tahoma, sans-serif;
-    color: #333;
+    color: #070000;
 }
 .container {
    width: 100%;
@@ -27,13 +27,13 @@ h3 {
 }
 
 .tabel-aspirasi thead {
-    background-color: #ffffff;
+    background-color: #496bda;
 }
 
 .tabel-aspirasi th {
     font-size: 14px;
     font-weight: 600;
-    color: #333;
+    color: #ffffff;
     padding: 10px;
 }
 
@@ -50,9 +50,9 @@ h3 {
 
 /* ===== TOMBOL ===== */
 .btn-edit {
-    background-color: #e9ecef;
+    background-color: #8fbae5;
     color: #333;
-    border: 1px solid #ced4da;
+    border: 1px solid #5998d6;
     padding: 4px 10px;
     font-size: 12px;
     border-radius: 5px;

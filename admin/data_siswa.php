@@ -6,37 +6,33 @@ if (!$conn) {
 }
 
 // Query aspirasi
-$query = "SELECT * FROM aspirasi ORDER BY tanggal DESC";
+$query = "SELECT * FROM siswa ORDER BY id DESC";
 $result = mysqli_query($conn, $query);
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Data Aspirasi</title>
+    <title>Data siswa</title>
 
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/aspirasi.css">
+    <link rel="stylesheet" href="data.css">
 </head>
 <body>
 
 <div class="container mt-4">
 
-    <h3 class="mb-3">Data Aspirasi Siswa</h3>
+    <h3 class="mb-3">Data siswa</h3>
 
     <table class="table table-bordered table-striped tabel-aspirasi text-center align-middle">
 
         <thead>
             <tr>
                 <th>No</th>
+                <th>kelas</th>
                 <th>NIS</th>
-                <th>Kategori</th>
-                <th>Judul</th>
-                <th>Isi</th>
-                <th>Tanggal</th>
-                <th>Status</th>
-                <th>Feedback</th>
+                <th>Aksi</th>
+                
             </tr>
         </thead>
         <tbody>
@@ -48,13 +44,22 @@ $result = mysqli_query($conn, $query);
         ?>
             <tr>
                 <td><?= $no++ ?></td>
-                <td><?= $row['id_siswa'] ?></td>
-                <td><?= $row['nama_kategori'] ?></td>
-                <td><?= $row['judul'] ?></td>
-                <td><?= substr($row['isi'], 0, 40) ?></td>
-                <td><?= $row['tanggal'] ?></td>
-                <td><?= $row['status'] ?></td>
-                <td><?= $row['feedback'] ?></td>
+                <td><?= $row['kelas'] ?></td>
+                <td><?= $row['nis'] ?></td>
+               
+          <td>
+    <a href="../update/updatesiswa.php?id=<?= $row['id']; ?>" 
+       class="btn btn-sm btn-edit">
+        Edit
+    </a>
+
+    <a href="../update/deletesiswa.php?id=<?= $row['id']; ?>" 
+       class="btn btn-sm btn-delete"
+       onclick="return confirm('Yakin ingin menghapus data ini?')">
+        Hapus
+    </a>
+</td>
+
             </tr>
         <?php
             }

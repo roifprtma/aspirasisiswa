@@ -78,7 +78,7 @@
     <div class="d-flex w-full  ">
     <div class="container mt-5 px-5 " id="tentang">
       <p class="text-start text-tentang  mb-3">
-      Aspirasi Siswa adalah platform daring yang didedikasikan untuk memberikan ruang aman bagi pelajar
+          Aspirasi Siswa adalah platform daring yang didedikasikan untuk memberikan ruang aman bagi pelajar
       dalam menyampaikan pendapat, kritik, dan saran terkait lingkungan sekolah dan pendidikan secara umum.
       Kami percaya bahwa setiap suara pelajar penting dan berhak didengar. Melalui platform ini, kami
       berkomitmen untuk memfasilitasi komunikasi yang konstruktif antara pelajar, guru, dan pihak sekolah guna
@@ -93,7 +93,7 @@
   <p class="text-kategori text-primary" id="kategori">KATEGORI</p>
   <div class="container mt-4" id="kategori">
     <div class="row justify-content-end">
-      <div class="col-md-4 mb-4">
+      <div class="col-md-4 mb-4 ">
         <div class="card" style="width: 18rem;">
           <img src="image/labkom.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
@@ -178,7 +178,7 @@
       <div class="col-md-4 mb-4">
         <div class="p-4 shadow-sm bg-white rounded">
            <img src="image/telephone (1).png" alt="Alamat" class="img-fluid mb-4 logo-telephone">
-          <h5 class="fw-bold">📞 Telepon</h5>
+          <h5 class="fw-bold"> Telepon</h5>
           <p>0812-3456-7890
           <br>Senin – Jumat</p>
         </div>
@@ -187,7 +187,7 @@
       <div class="col-md-4 mb-4">
         <div class="p-4 shadow-sm bg-white rounded">
             <img src="image/text.png" alt="Alamat" class="img-fluid mb-4 logo-email">
-          <h5 class="fw-bold">✉️ Email</h5>
+          <h5 class="fw-bold"> Email</h5>
           <p>aspirasi@siswa.sch.id<br>Respon cepat & aman</p>
         </div>
       </div>

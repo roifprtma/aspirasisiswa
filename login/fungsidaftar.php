@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // cek data di database
     $sql = "INSERT INTO siswa (kelas, nis) VALUES ('$kelas', '$nis')";
         if (mysqli_query($conn, $sql)) {
-            echo "<script>alert('Registrasi berhasil! Silakan login.'); window.location='../siswa.php';</script>";
+            echo "<script>alert('Registrasi berhasil!'); window.location='../siswa.php';</script>";
         } else {
             echo "Error: " . mysqli_error($conn);
         }

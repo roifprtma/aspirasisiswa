@@ -24,6 +24,7 @@ if (isset($_POST['update'])) {
     $isi = $_POST['isi'];
     $tanggal = $_POST['tanggal'];
     $status = $_POST['status'];
+    $feedback = $_POST['feedback'];
 
 
     $update = mysqli_query($conn, "
@@ -33,14 +34,15 @@ if (isset($_POST['update'])) {
             judul='$judul',
             isi='$isi',
             tanggal='$tanggal',
-            status='$status'
+            status='$status',
+            feedback='$feedback'
         WHERE id='$id'
     ");
 
     if ($update) {
         echo "<script>
             alert('Data berhasil diperbarui!');
-            window.location='admin.php';
+            window.location='../admin/admin.php';
         </script>";
     } else {
         echo "Gagal update: " . mysqli_error($conn);
@@ -76,6 +78,8 @@ if (isset($_POST['update'])) {
 
         <label>Tanggal</label>
         <input type="date" name="tanggal" value="<?= $row['tanggal']; ?>" required>
+        <label>Feedback</label>
+        <input type="text" name="feedback" value="<?= $row['feedback']; ?>" required>
 
        <label>Status</label>
 <input list="statusList" name="status" value="<?= $row['status']; ?>" required>
