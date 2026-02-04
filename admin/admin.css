@@ -34,7 +34,7 @@ body {
     position: fixed;
     top: 0;
     left: -220px;
-    transition: 0.4s;
+    transition: 0.5s;
     padding-top: 60px;
     z-index: 1000;
 }

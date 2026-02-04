@@ -92,7 +92,7 @@ if (isset($_POST['update'])) {
 
 
         <button type="submit" name="update"> Simpan Perubahan</button>
-        <a href="admin.php" class="btn-kembali">⬅ Kembali</a>
+      
     </form>
 </div>
 

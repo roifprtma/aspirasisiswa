@@ -1,8 +1,4 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "aspirasisiswa");
-if (!$conn) {
-    die("Koneksi gagal: " . mysqli_connect_error());
-}
 // Query aspirasi
 $conn = mysqli_connect("localhost", "root", "", "aspirasisiswa");
 if (!$conn) {
@@ -43,13 +39,15 @@ $result = mysqli_query($conn, $query);
 
     <h3 class="mb-3">Data Aspirasi Siswa</h3>
 <form method="GET" class="mb-3 d-flex gap-2">
-    <input type="date" name="tanggal" class="form-control w-auto">
+    <input type="date" name="tanggal" class="form-control w-auto ">
 
     <select name="kategori" class="form-select w-auto">
         <option value="">Semua Kategori</option>
         <option value="lapangan">Lapangan</option>
         <option value="toilet">Toilet</option>
-        <option value="perpus">Perpustakaan</option>
+        <option value="perpustakaan">Perpustakaan</option>
+        <option value="laboratorium">Laboratorium</option>
+        <option value="kelas">Kelas</option>
     </select>
 
     <input type="text" name="nis" class="form-control w-auto" placeholder="Cari NIS">

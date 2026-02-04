@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="Halaman-1" id="ewaZCEue46FuS9qqYCz4">
+    <mxGraphModel dx="866" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DwijtHJ26RDMwonS0KYb-29" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ASPIRASI" vertex="1">
+          <mxGeometry height="260" width="200" x="40" y="80" as="geometry">
+            <mxRectangle height="30" width="100" x="40" y="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DwijtHJ26RDMwonS0KYb-30" parent="DwijtHJ26RDMwonS0KYb-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;id (PK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;id_siswa (Int)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_kategori (int)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;judul (varchar)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;isi (varchar)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;tanggal (date)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;feedback (varchar)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;status (varchar)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DwijtHJ26RDMwonS0KYb-33" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ADMIN" vertex="1">
+          <mxGeometry height="90" width="140" x="320" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DwijtHJ26RDMwonS0KYb-34" parent="DwijtHJ26RDMwonS0KYb-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="username (varchar)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;password (varchar0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DwijtHJ26RDMwonS0KYb-37" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SISWA" vertex="1">
+          <mxGeometry height="140" width="140" x="550" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DwijtHJ26RDMwonS0KYb-38" parent="DwijtHJ26RDMwonS0KYb-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;id (PK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;kelas (varchar)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;nis (varchar0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DwijtHJ26RDMwonS0KYb-39" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="KATEGORI" vertex="1">
+          <mxGeometry height="90" width="190" x="450" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="DwijtHJ26RDMwonS0KYb-40" parent="DwijtHJ26RDMwonS0KYb-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="id (PK)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;nama_kategori (varchar)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DwijtHJ26RDMwonS0KYb-41" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="INPUT ASPIRASI" vertex="1">
+          <mxGeometry height="210" width="190" x="240" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="DwijtHJ26RDMwonS0KYb-42" parent="DwijtHJ26RDMwonS0KYb-41" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="id_siswa (int)&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_kategori (PK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;judul (varchar)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;isi (varchar)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;tanggal(varchar)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;kategori(varchar)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="190" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DwijtHJ26RDMwonS0KYb-46" edge="1" parent="1" source="DwijtHJ26RDMwonS0KYb-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.014;entryY=0.267;entryDx=0;entryDy=0;entryPerimeter=0;" target="DwijtHJ26RDMwonS0KYb-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DwijtHJ26RDMwonS0KYb-47" edge="1" parent="1" source="DwijtHJ26RDMwonS0KYb-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="DwijtHJ26RDMwonS0KYb-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DwijtHJ26RDMwonS0KYb-48" edge="1" parent="1" source="DwijtHJ26RDMwonS0KYb-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.463;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" target="DwijtHJ26RDMwonS0KYb-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DwijtHJ26RDMwonS0KYb-49" edge="1" parent="1" source="DwijtHJ26RDMwonS0KYb-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.616;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="DwijtHJ26RDMwonS0KYb-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

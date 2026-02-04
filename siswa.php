@@ -41,6 +41,9 @@
           <li class="nav-item">
             <a class="nav-link" href="aspirasi.php"><b>ASPIRASI</b></a>
           </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#fitur"><b>FITUR</b></a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#kontak"><B>KONTAK</B></a>
           </li>
@@ -63,10 +66,10 @@
       </h1>
       <h2 class="hero-sub">
         Ruang aman bagi setiap pelajar untuk berani bicara dan menyampaikan pendapat tanpa takut.
-        <br>
         <span>Suaramu didengar, perubahan pasti akan dimulai.</span>
-        <br> Pilih jenis aspirasi yang ingin kamu sampaikan:
-      </h2>
+        </h2>
+      <h4><b> <br> Pilih jenis aspirasi yang ingin kamu sampaikan:</b></h4> 
+      
       <button class="btn btn-primary btn-lg mt-4 mr-4 hero-button"
         onclick="location.href='formaspirasi.php'"><b>SARANA</b></button>
     </div>
@@ -129,34 +132,79 @@
           </div>
         </div>
       </div>
-      <!-- <div class="col-md-4 mb-4">
+         <div class="col-md-4 mb-4">
         <div class="card" style="width: 18rem;">
-          <img src="image/LAPANGAN.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
+          <img src="image/kelas.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
             <p>
-            <h4>mencuci</h4>
+            <B><h4>KELAS</h4></B>
             </p>
-            <p class="card-text">bila barang sudah sampai kita akan langsung mencuci pakaian yang anda kirim kan dengan
-              bersih dan teliti</p>
 
           </div>
         </div>
-      </div> -->
-      <!-- <div class="col-md-4 mb-4">
+      </div>
+         <div class="col-md-4 mb-4">
         <div class="card" style="width: 18rem;">
-          <img src="image/furnitur.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
+          <img src="image/lapangan.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
             <p>
-            <h4>menyetrika</h4>
+            <B><h4>LAPANGAN</h4></B>
             </p>
-            <p class="card-text">Agar tidak terlihat kusut atau kurang rapih kita setrika terlebih dahulu sebelum
-              dikirimkan</p>
 
           </div>
         </div>
-      </div> -->
+      </div>
+      
     </div>
   </div>
+  <!-- akhir card  -->
+   <!-- fitur yang tersedia -->
+  <p class="text-kategori text-primary" id="fitur">FITUR YANG TERSEDIA</p>
+  <div class="container mt-4 mb-5" id="fitur">
+    <div class="row justify-content-center">
+      
+      <!-- Fitur 1 -->
+      <div class="col-md-3 mb-4">
+        <div class="card feature-card h-100 text-center p-3">
+          <div class="feature-icon mb-3">
+            <img src="image/categories.png" alt="Kategori" class="img-fluid" style="width: 60px; height: 60px;">
+          </div>
+          <h5 class="fw-bold">Kategori Beragam</h5>
+          <p class="text-muted">
+            Pilih kategori sesuai kebutuhan : Laboratorium, kelas, lapangan dan lainnya.
+          </p>
+        </div>
+      </div>
+
+      <!-- Fitur 2 -->
+      <div class="col-md-3 mb-4">
+        <div class="card feature-card h-100 text-center p-3">
+          <div class="feature-icon mb-3">
+            <img src="image/project.png" alt="Status" class="img-fluid" style="width: 60px; height: 60px;">
+          </div>
+          <h5 class="fw-bold">Lacak Status</h5>
+          <p class="text-muted">
+            Pantau perkembangan aspirasi Anda dari "diproses" hingga "ditindaklanjuti".
+          </p>
+        </div>
+      </div>
+
+      <!-- Fitur 3 -->
+      <div class="col-md-3 mb-4">
+        <div class="card feature-card h-100 text-center p-3">
+          <div class="feature-icon mb-3">
+            <img src="image/rapid.png" alt="Respons" class="img-fluid" style="width: 60px; height: 60px;">
+          </div>
+          <h5 class="fw-bold">Respons Cepat</h5>
+          <p class="text-muted">
+            Tim kami akan menindaklanjuti setiap aspirasi maksimal dalam 3-5 hari kerja.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- akhir fitur yang tersedia -->
 <!-- ===== KONTAK ===== -->
 <section id="kontak" class="py-5 bg-light">
   <div class="container">
