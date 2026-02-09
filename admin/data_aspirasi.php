@@ -16,6 +16,8 @@ if (!empty($_GET['nama_kategori'])) {
 if (!empty($_GET['nis'])) {
     $where[] = "id_siswa = '" . $_GET['nis'] . "'";
 }
+
+
 $query = "SELECT * FROM aspirasi";
 if (!empty($where)) {
     $query .= " WHERE " . implode(" AND ", $where);
@@ -41,12 +43,12 @@ $result = mysqli_query($conn, $query);
 <form method="GET" class="mb-3 d-flex gap-2">
     <input type="date" name="tanggal" class="form-control w-auto ">
 
-    <select name="kategori" class="form-select w-auto">
+    <select name="nama_kategori" class="form-select w-auto">
         <option value="">Semua Kategori</option>
         <option value="lapangan">Lapangan</option>
         <option value="toilet">Toilet</option>
-        <option value="perpustakaan">Perpustakaan</option>
-        <option value="laboratorium">Laboratorium</option>
+        <option value="perpus">Perpustakaan</option>
+        <option value="Lab">Laboratorium</option>
         <option value="kelas">Kelas</option>
     </select>
 

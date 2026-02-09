@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         echo "<script>
             alert('Login gagal! Username atau Password salah');
-            window.location='aspirasisiswa.php';
+            window.location='../aspirasisiswa.php';
         </script>";
     }
 }

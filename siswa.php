@@ -219,7 +219,7 @@
         <div class="p-4 shadow-sm bg-white rounded">
           <img src="image/location.png" alt="Alamat" class="img-fluid mb-2 logo-location">
           <h5 class="fw-bold mt-3"> Alamat</h5>
-          <p>Jl. Pendidikan No. 1<br>Sekolah Indonesia</p>
+          <p>Jl. Raya samarang<br>SMK Al madani Garut</p>
         </div>
       </div>
 
@@ -228,7 +228,7 @@
            <img src="image/telephone (1).png" alt="Alamat" class="img-fluid mb-4 logo-telephone">
           <h5 class="fw-bold"> Telepon</h5>
           <p>0812-3456-7890
-          <br>Senin – Jumat</p>
+          <br>Senin – Sabtu</p>
         </div>
       </div>
 

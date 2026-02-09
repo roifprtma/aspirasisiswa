@@ -13,9 +13,10 @@ body {
    flex-direction: column;
 }
 /* ===== JUDUL ===== */
-h3 {
+.mb-3 {
     font-weight: 600;
-    color:#033eff;
+    font-size: 30px;
+    color:#ffffff;
 }
 
 /* ===== TABEL ===== */
@@ -31,15 +32,15 @@ h3 {
 }
 
 .tabel-aspirasi th {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
     color: #ffffff;
     padding: 10px;
 }
 
 .tabel-aspirasi td {
-    font-size: 14px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 20px;
     vertical-align: middle;
 }
 

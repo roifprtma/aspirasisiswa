@@ -16,7 +16,7 @@ $result = mysqli_query($conn, $query);
     <title>Data siswa</title>
 
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="data.css">
+    <link rel="stylesheet" href="datsis.css">
 </head>
 <body>
 
