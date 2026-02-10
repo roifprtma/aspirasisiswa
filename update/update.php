@@ -87,7 +87,7 @@ if (isset($_POST['update'])) {
 <datalist id="statusList">
     <option value="Menunggu">
     <option value="Diproses">
-    <option value="Selesai">
+    <option value="selesai">
 </datalist>
 
 

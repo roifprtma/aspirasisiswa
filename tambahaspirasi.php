@@ -16,5 +16,5 @@ VALUES
 
 mysqli_query($conn, $query);
 
-header("Location: aspirasi.php");
+header("Location: siswa.php");
 exit;

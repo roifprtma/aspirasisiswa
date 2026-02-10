@@ -41,9 +41,9 @@ $result = mysqli_query($conn, $query);
 
     <h3 class="mb-3">Data Aspirasi Siswa</h3>
 <form method="GET" class="mb-3 d-flex gap-2">
-    <input type="date" name="tanggal" class="form-control w-auto ">
+    <input type="date" name="tanggal" class="form-control w-auto input-tanggal">
 
-    <select name="nama_kategori" class="form-select w-auto">
+    <select name="nama_kategori" class="form-select w-auto nama-kategori">
         <option value="">Semua Kategori</option>
         <option value="lapangan">Lapangan</option>
         <option value="toilet">Toilet</option>
@@ -52,9 +52,9 @@ $result = mysqli_query($conn, $query);
         <option value="kelas">Kelas</option>
     </select>
 
-    <input type="text" name="nis" class="form-control w-auto" placeholder="Cari NIS">
+    <input type="text" name="nis" class="form-control w-auto nis" placeholder="Cari NIS">
 
-    <button class="btn btn-primary">Filter</button>
+    <button class="btn btn-primary button-filter">Filter</button>
 </form>
 
     <table class="table table-bordered table-striped tabel-aspirasi text-center align-middle">
