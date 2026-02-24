@@ -39,7 +39,7 @@ $aspirasi = mysqli_query(
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard Aspirasi Siswa</title>
+  <title>Admin aspirasi siswa</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="admin.css">
 </head>
@@ -47,7 +47,7 @@ $aspirasi = mysqli_query(
 <body>
   <div class="navbar">
     <span class="toggle-btn" onclick="toggleSidebar()">☰ Menu</span>
-    <h5 class="mb-0"><b>Dashboard Aspirasi Siswa</b></h5>
+    <h5 class="mb-0"><b>Admin aspirasi siswa</b></h5>
   </div>
 
   <div class="sidebar" id="sidebar">
@@ -108,8 +108,9 @@ $aspirasi = mysqli_query(
                 <th>isi</th>
                 <th>Kategori</th>
                 <th>Tanggal</th>
+                 <th>Feedback</th>
                 <th>Status</th>
-                <th>Feedback</th>
+               
 
               </tr>
             </thead>
@@ -126,7 +127,7 @@ $aspirasi = mysqli_query(
                   <td><?= $row['isi'] ?></td>
                   <td><?= $row['nama_kategori'] ?></td>
                   <td><?= $row['tanggal'] ?></td>
-
+  <td><?= $row['feedback'] ?></td>
                   <td>
                     <?php if ($row['status'] == 'selesai') { ?>
                       <span class="badge bg-success">Selesai</span>
@@ -134,7 +135,7 @@ $aspirasi = mysqli_query(
                       <span class="badge bg-secondary"><?= $row['status'] ?></span>
                     <?php } ?>
                   </td>
-                  <td><?= $row['feedback'] ?></td>
+                
                 </tr>
               <?php } ?>
             </tbody>

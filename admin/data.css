@@ -33,7 +33,15 @@ h3 {
 .tabel-aspirasi thead {
     background-color: #496bda;
 }
-
+.table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 0px;
+    border-color:  rgb(71, 92, 184);
+}
 .tabel-aspirasi th {
     font-size: 13px;
     font-weight: 600;
@@ -42,14 +50,17 @@ h3 {
 }
 
 .tabel-aspirasi td {
+    text-align: center;
     font-size: 14px;
     padding: 10px;
     vertical-align: middle;
+    border-right: 1px solid rgb(71, 92, 184);
+    border-left: 1px solid rgb(71, 92, 184);
 }
 
 /* Hover baris */
 .tabel-aspirasi tbody tr:hover {
-    background-color: #f9fafb;
+    background-color: #6da4db;
 }
 
 /* ===== TOMBOL ===== */

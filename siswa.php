@@ -236,7 +236,7 @@
         <div class="p-4 shadow-sm bg-white rounded">
             <img src="image/text.png" alt="Alamat" class="img-fluid mb-4 logo-email">
           <h5 class="fw-bold"> Email</h5>
-          <p>aspirasi@siswa.sch.id<br>Respon cepat & aman</p>
+          <p>aspirasisiswa.sch.id<br>Respon cepat & aman</p>
         </div>
       </div>
 
@@ -255,7 +255,7 @@
           <div class="mb-3">
             <a href="#" class="text-light me-3 text-decoration-none">Instagram</a>
             <a href="#" class="text-light me-3 text-decoration-none">WhatsApp</a>
-            <a href="#" class="text-light text-decoration-none">Email</a>
+            <a href="#" class="text-light text-decoration-none">TikTok</a>
           </div>
 
           <hr class="border-secondary">

@@ -13,21 +13,21 @@ h3 {
     color:rgb(253, 253, 255); 
 }
 
-.table-responsive {
+/* .table-responsive {
     background:  rgb(71, 92, 184);
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.08);
-}
+} */
 
 .table {
     margin-bottom: 200px;
 }
 
-.table thead {
+/* .table thead {
     background: #f3f3f3;
     color: rgb(255, 255, 255);
-}
+} */
 
 .table thead th {
     text-align: center;
@@ -39,27 +39,28 @@ h3 {
 .table tbody td {
     vertical-align: middle;
     font-size: 14px;
+   
 }
 
-.table tbody tr:hover {
+/* .table tbody tr:hover {
     background-color: rgb(71, 92, 184);
     transition: 0.4s;
-}
+} */
 
-.badge {
+/* .badge {
     padding: 10px 15px;
     font-size: 12px;
     border-radius: 2px;
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .table-responsive {
         width: 100%;
         padding: 10px;
     }
 
    
-}
+} */
 .table {
     display: table;
     border-collapse: separate;

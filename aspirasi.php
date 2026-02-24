@@ -21,9 +21,9 @@ $result = mysqli_query($conn, $query);
 </head>
 <body>
 
-<div class="container mt-4">
+<div class="container mt-5">
 
-    <h3 class="mb-3">Data Aspirasi Siswa</h3>
+    <h3 class="mb-4">Data Aspirasi Siswa</h3>
 
     <table class="table table-bordered table-striped tabel-aspirasi text-center align-middle">
 
@@ -35,8 +35,9 @@ $result = mysqli_query($conn, $query);
                 <th>Judul</th>
                 <th>Isi</th>
                 <th>Tanggal</th>
+                 <th>Feedback</th>
                 <th>Status</th>
-                <th>Feedback</th>
+               
             </tr>
         </thead>
         <tbody>
@@ -53,8 +54,9 @@ $result = mysqli_query($conn, $query);
                 <td><?= $row['judul'] ?></td>
                 <td><?= substr($row['isi'], 0, 40) ?></td>
                 <td><?= $row['tanggal'] ?></td>
-                <td><?= $row['status'] ?></td>
                 <td><?= $row['feedback'] ?></td>
+                <td><?= $row['status'] ?></td>
+                
             </tr>
         <?php
             }

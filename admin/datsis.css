@@ -46,9 +46,18 @@ body {
 
 /* Hover baris */
 .tabel-aspirasi tbody tr:hover {
-    background-color: #f9fafb;
+    background-color: #5d94cc;
 }
-
+.table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 0px;
+    border-right: 1px solid rgb(71, 92, 184);
+    border-left: 1px solid rgb(71, 92, 184);
+}
 /* ===== TOMBOL ===== */
 .btn-edit {
     background-color: #8fbae5;
