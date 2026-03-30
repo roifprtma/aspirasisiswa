@@ -13,7 +13,7 @@
 <div class="form-aspirasi">
     <h2>Form Aspirasi Siswa</h2>
 
-   <form action="tambahaspirasi.php" method="POST">
+   <form action="tambahaspirasi.php" method="POST" enctype="multipart/form-data">
 
     <label>NIS</label>
     <input type="text" name="id_siswa" required>
@@ -35,6 +35,10 @@
 
     <label>Isi</label>
     <textarea name="isi" placeholder="maxsimal 4 kata"required></textarea>
+
+    <label>unggah Gambar</label>
+    <input type="file" name="gambar" required>
+
 
     <button type="submit">Kirim</button>
 </form>

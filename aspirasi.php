@@ -34,6 +34,7 @@ $result = mysqli_query($conn, $query);
                 <th>Kategori</th>
                 <th>Judul</th>
                 <th>Isi</th>
+                <th>gambar</th>
                 <th>Tanggal</th>
                  <th>Feedback</th>
                 <th>Status</th>
@@ -53,6 +54,7 @@ $result = mysqli_query($conn, $query);
                 <td><?= $row['nama_kategori'] ?></td>
                 <td><?= $row['judul'] ?></td>
                 <td><?= substr($row['isi'], 0, 40) ?></td>
+               <td><img src="gambar/<?= $row['gambar'] ?>" alt="" width="90"></td>
                 <td><?= $row['tanggal'] ?></td>
                 <td><?= $row['feedback'] ?></td>
                 <td><?= $row['status'] ?></td>
