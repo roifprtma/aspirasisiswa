@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = mysqli_query($conn, $sql);
 
     if (mysqli_num_rows($result) > 0) {
-        // login berhasil → langsung masuk dashboard
+        // fungsi login berhasil
         header("Location: ../siswa.php");
         exit;
     } else {

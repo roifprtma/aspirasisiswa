@@ -11,7 +11,7 @@ if (isset($_GET['id'])) {
     if (mysqli_query($conn, $sql)) {
         echo "<script>
                 alert('Data berhasil dihapus!');
-                window.location='../admin/admin.php';
+                window.location='../admin/data_aspirasi.php';
               </script>";
     } else {
         echo "Error: " . mysqli_error($conn);

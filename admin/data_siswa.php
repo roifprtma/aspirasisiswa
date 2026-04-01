@@ -19,7 +19,7 @@ $result = mysqli_query($conn, $query);
     <link rel="stylesheet" href="datsis.css">
 </head>
 <body>
-
+<a href="admin.php" class="btn-kembali">Kembali</a>
 <div class="container mt-4">
 
     <h3 class="mb-3">Data siswa</h3>
@@ -70,8 +70,9 @@ $result = mysqli_query($conn, $query);
 
         </tbody>
     </table>
-
 </div>
+
+
 
 </body>
 </html>

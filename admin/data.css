@@ -3,15 +3,30 @@ body {
     background-color: #a1badf;
     font-family: "Segoe UI", Tahoma, sans-serif;
     color: #070000;
+   
+}
+.btn-kembali {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+     margin-left: 20px;
 }
 
+.btn-kembali:hover {
+    background-color: #2980b9;
+}
 .container {
     width: 100%;
-    height: 508px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 50px;
+    padding-bottom: 200px;
 }
 
 /* ===== JUDUL ===== */
@@ -41,10 +56,11 @@ h3 {
     unicode-bidi: isolate;
     border-spacing: 0px;
     border-color:  rgb(71, 92, 184);
+    width: 80%;
 }
 .tabel-aspirasi th {
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 500;
     color: #ffffff;
     padding: 10px;
 }

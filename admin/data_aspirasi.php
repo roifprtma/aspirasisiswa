@@ -36,7 +36,7 @@ $result = mysqli_query($conn, $query);
     <link rel="stylesheet" href="data.css">
 </head>
 <body>
-
+<a href="admin.php" class="btn-kembali">Kembali</a>
 <div class="container mt-4">
 
     <h3 class="mb-3">Data Aspirasi Siswa</h3>
@@ -86,7 +86,7 @@ $result = mysqli_query($conn, $query);
                 <td><?= $row['nama_kategori'] ?></td>
                 <td><?= $row['judul'] ?></td>
                 <td><?= substr($row['isi'], 0, 40) ?></td>
-               <td><img src="../gambar/<?= $row['gambar'] ?>" alt="" width="90"></td>
+               <td><img src="../gambar/<?= $row['gambar'] ?>" alt="" width="60"></td>
                 <td><?= $row['tanggal'] ?></td>
                  <td><?= $row['status'] ?></td>
                  <td><?= $row['feedback'] ?></td>

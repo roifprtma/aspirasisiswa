@@ -12,6 +12,14 @@ body {
    align-items: center;
    flex-direction: column;
 }
+.btn-kembali {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
 /* ===== JUDUL ===== */
 .mb-3 {
     font-weight: 600;
